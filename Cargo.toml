@@ -1,0 +1,10 @@
+[package]
+name = "file-uploader-leptos"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+leptos = { version = "0.8.15", features = ["csr"] }
+reqwasm = "0.5.0"
+serde = { version = "1.0.228", features = ["derive"] }
+web-sys = { version = "0.3.91", features = ["File"] }
