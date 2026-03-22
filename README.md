@@ -19,7 +19,7 @@ rustc --version
 Install dependencies:
 
 ```
-cargon install trunk
+cargo install trunk
 ```
 
 Run application
@@ -52,3 +52,20 @@ pub mod services;
 ```
 
 ## To be continue [here](./src/components/README.md)
+
+## Next Leptos project
+
+https://autognosi.medium.com/building-a-modern-todo-list-application-with-rust-leptos-and-tailwind-css-4-0-28a859f4a17f
+
+## CSS
+
+Ref: https://github.com/basro/stylance-rs
+
+## Full refresh of dependencies
+
+```bash
+rm -rf ~/.cargo/registry
+rm -rf ~/.cargo/git
+cargo clean
+cargo build
+```

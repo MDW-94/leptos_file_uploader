@@ -10,8 +10,11 @@ fn App() -> impl IntoView {
     }
 }
 
-
 fn main(){
     mount_to_body(App);
 }
 
+// * mount_to_body comes from leptos library and is responsible for...
+// TODO: Try and experiment with main function with mount_to_body within - what else can you do
+// ! Remember to run
+// ? Can you use Atomic Design for the folder structure?
